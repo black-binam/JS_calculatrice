@@ -1,0 +1,79 @@
+body{
+    background: rgb(8, 190, 181);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.contour{
+    width: fit-content;
+    border: solid 2px rgb(205, 233, 224);
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+ 
+}
+
+.egal{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#ecran{
+   
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background: white;
+    margin-bottom:4px;
+    width: auto;
+    padding-left:10px;
+    font-size:1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    
+
+}
+
+
+
+#box_chiffres{
+    display: flex;
+    flex-direction: column;
+    
+    border: none
+
+}
+
+.box_num{
+    margin-bottom:4px;
+    width: fit-content;
+}
+
+button{
+    appearance: none;
+    background-color: azure;
+    font-size: 1.2em;
+    padding: 15px;
+    margin-left: 0px;
+    border: none;
+    width: 40px;
+    border-radius:10px;
+    cursor: pointer;
+    transition:0.2s
+}
+button:hover{
+    background-color: rgb(10, 122, 150);
+    color:white
+}
+
+.clear{
+    width: auto;
+    margin-top:2px;
+    padding: 5px;
+}
+
